@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 
 @Intercepts
 @RequestScoped
-public class Log {
+public class LogInterceptor {
 
     @Inject
     private HttpServletRequest httpServletRequest;
